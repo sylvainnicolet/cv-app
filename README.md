@@ -77,7 +77,7 @@ yarn build
   - [x] Contact
 - [ ] Navigation
   - [ ] Image
-  - [ ] Social Networks
+  - [x] Social Networks
   - [ ] Menu
   - [ ] Icon Light/Dark
 - [ ] Biography

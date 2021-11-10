@@ -3,9 +3,14 @@
     <div class="navigation__header">
       <h1>Sylvain Nicolet</h1>
       <h2>Apprentis développeur</h2>
+      <ul class="social_networks">
+        <li><a href="https://www.linkedin.com/in/sylvainnicolet/" target="_blank" class="fa fa-linkedin"></a></li>
+        <li><a href="https://github.com/sylvainnicolet" target="_blank" class="fa fa-github"></a></li>
+        <li><a href="https://www.instagram.com/hescsen_photography/" target="_blank" class="fa fa-instagram"></a></li>
+      </ul>
     </div>
 
-    <ul>
+    <ul class="menu">
       <li><NuxtLink to="/biography">Biographie</NuxtLink></li>
       <li><NuxtLink to="/experiences">Expériences</NuxtLink></li>
       <li><NuxtLink to="/formations">Formations</NuxtLink></li>
@@ -21,7 +26,7 @@
   /* Navigation Header */
   .navigation__header {
     @apply flex flex-col items-center whitespace-nowrap;
-    @apply px-6 pt-10 pb-20;
+    @apply px-6 pt-10 pb-10;
   }
 
   /* Titles */
@@ -33,8 +38,18 @@
     @apply text-xl uppercase font-light tracking-widest;
   }
 
-  /* Items */
-  ul {
+  /* Social Networks */
+  .social_networks {
+    @apply flex justify-center;
+    @apply mt-3 space-x-3;
+
+    .fa {
+      @apply text-xl;
+    }
+  }
+
+  /* Menu */
+  .menu {
     @apply flex flex-col;
 
     li {
