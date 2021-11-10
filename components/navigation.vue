@@ -45,6 +45,7 @@
 
     .fa {
       @apply text-xl;
+      @apply hover:text-lt_hover_text;
     }
   }
 

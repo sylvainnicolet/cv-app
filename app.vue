@@ -17,12 +17,12 @@ import Navigation from "~/components/navigation.vue";
 
 #app {
   @apply min-h-screen;
-  @apply p-4;
+  @apply p-6;
   @apply bg-lt_bg;
 }
 
 .layout {
   @apply flex flex-col lg:flex-row lg:items-start;
-  @apply space-x-0 lg:space-x-4 space-y-3 lg:space-y-0;
+  @apply space-x-0 lg:space-x-6 space-y-6 lg:space-y-0;
 }
 </style>
