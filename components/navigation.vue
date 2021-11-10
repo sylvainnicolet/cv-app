@@ -4,9 +4,9 @@
       <h1>Sylvain Nicolet</h1>
       <h2>Apprentis développeur</h2>
       <ul class="social_networks">
-        <li><a href="https://www.linkedin.com/in/sylvainnicolet/" target="_blank" class="fa fa-linkedin"></a></li>
-        <li><a href="https://github.com/sylvainnicolet" target="_blank" class="fa fa-github"></a></li>
-        <li><a href="https://www.instagram.com/hescsen_photography/" target="_blank" class="fa fa-instagram"></a></li>
+        <li><a href="https://www.linkedin.com/in/sylvainnicolet/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://github.com/sylvainnicolet" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.instagram.com/hescsen_photography/" target="_blank"><i class="fab fa-instagram"></i></a></li>
       </ul>
     </div>
 
@@ -18,6 +18,12 @@
       <li><NuxtLink to="/references">Références</NuxtLink></li>
       <li><NuxtLink to="/contact">Contact</NuxtLink></li>
     </ul>
+
+    <div class="theme">
+      <i class="fas fa-sun"></i>
+      <Switch />
+      <i class="fas fa-moon"></i>
+    </div>
   </nav>
 </template>
 
@@ -26,7 +32,7 @@
   /* Navigation Header */
   .navigation__header {
     @apply flex flex-col items-center whitespace-nowrap;
-    @apply px-6 pt-10 pb-10;
+    @apply px-6 py-10;
   }
 
   /* Titles */
@@ -43,7 +49,7 @@
     @apply flex justify-center;
     @apply mt-3 space-x-3;
 
-    .fa {
+    .fab {
       @apply text-xl;
       @apply hover:text-lt_hover_text;
     }
@@ -61,6 +67,17 @@
         @apply text-lg uppercase tracking-wider;
         @apply hover:bg-lt_hover_bg hover:text-lt_hover_text
       }
+    }
+  }
+
+  /* Theme */
+  .theme {
+    @apply flex justify-center items-center;
+    @apply space-x-3;
+    @apply my-10;
+
+    .fas {
+      @apply text-xl;
     }
   }
 

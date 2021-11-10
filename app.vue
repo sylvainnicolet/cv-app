@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import './assets/tailwind.scss'
 import './assets/custom.scss'
-import Navigation from "~/components/navigation.vue";
 </script>
 
 <template>
