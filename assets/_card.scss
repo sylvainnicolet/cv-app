@@ -3,5 +3,13 @@
   box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
   @apply bg-lt_card_bg text-lt_text;
   @apply rounded-md;
-  @apply p-4;
+}
+
+.card--navigation {
+
+}
+
+.card--section {
+  @apply px-6 pt-10 pb-4;
+  @apply w-full;
 }

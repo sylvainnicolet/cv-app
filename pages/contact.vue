@@ -1,3 +1,5 @@
 <template>
-  <h1>Contact</h1>
+  <div class="card card--section">
+    <h1 class="h1--section">Contact</h1>
+  </div>
 </template>

@@ -66,18 +66,20 @@ yarn build
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Layout
-- [ ] Sections
-  - [ ] Navigation
-  - [ ] Biography
-  - [ ] Experiences
-  - [ ] Formations
-  - [ ] Languages
-  - [ ] References
-  - [ ] Contact
+- [x] Layout
+- [x] Sections
+  - [x] Navigation
+  - [x] Biography
+  - [x] Experiences
+  - [x] Formations
+  - [x] Languages
+  - [x] References
+  - [x] Contact
 - [ ] Navigation
   - [ ] Image
+  - [ ] Social Networks
   - [ ] Menu
+  - [ ] Icon Light/Dark
 - [ ] Biography
   - [ ] Write Biography
 - [ ] Experiences
