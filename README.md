@@ -78,8 +78,8 @@ yarn build
 - [ ] Navigation
   - [ ] Image
   - [x] Social Networks
-  - [ ] Menu
-  - [ ] Icon Light/Dark
+  - [x] Menu
+  - [x] Icon Light/Dark
 - [ ] Biography
   - [ ] Write Biography
 - [ ] Experiences
@@ -92,7 +92,7 @@ yarn build
   - ???
 - [ ] Contact
   - ???
-- [ ] Theme Light/Dark
+- [x] Theme Light/Dark
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

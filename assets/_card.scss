@@ -1,8 +1,8 @@
 /* Card */
 .card {
   box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
-  @apply bg-lt_card_bg text-lt_text;
   @apply rounded-md;
+  @apply bg-lt_card_bg text-lt_text;
 }
 
 .card--navigation {
@@ -10,6 +10,13 @@
 }
 
 .card--section {
-  @apply px-6 py-10;
+  @apply p-10;
   @apply w-full;
+}
+
+/* Dark */
+.dark {
+  .card {
+    @apply bg-dt_card_bg text-dt_text;
+  }
 }

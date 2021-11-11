@@ -21,18 +21,39 @@
 
     <div class="theme">
       <i class="fas fa-sun"></i>
-      <Switch />
+      <label class="switch">
+        <input v-model='isDarkTheme' type="checkbox" @click="$emit('toggle')">
+        <span class="slider"></span>
+      </label>
       <i class="fas fa-moon"></i>
     </div>
   </nav>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+export default defineComponent({
+  data() {
+    return {
+      isDarkTheme: false
+    }
+  },
+  mounted() {
+    if (localStorage.theme) {
+      if (localStorage.theme === 'dark') {
+        this.isDarkTheme = true
+      }
+    }
+  },
+});
+</script>
 
 <style lang="scss" scoped>
 
   /* Navigation Header */
   .navigation__header {
     @apply flex flex-col items-center whitespace-nowrap;
-    @apply px-6 py-10;
+    @apply p-10;
   }
 
   /* Titles */
@@ -51,7 +72,7 @@
 
     .fab {
       @apply text-xl;
-      @apply hover:text-lt_hover_text;
+      @apply hover:text-accent;
     }
   }
 
@@ -59,13 +80,14 @@
   .menu {
     @apply flex flex-col;
 
-    li {
+    a {
+      @apply block;
+      @apply py-3 px-10;
+      @apply text-center lg:text-left text-lg uppercase tracking-wider;
+      @apply hover:bg-lt_hover_bg;
 
-      a {
-        @apply block;
-        @apply py-3 px-6;
-        @apply text-lg uppercase tracking-wider;
-        @apply hover:bg-lt_hover_bg hover:text-lt_hover_text
+      &.router-link-active {
+        @apply bg-lt_text text-dt_text;
       }
     }
   }
@@ -79,6 +101,82 @@
     .fas {
       @apply text-xl;
     }
+
+    .fa-moon {
+      @apply text-gray-200;
+    }
   }
 
+  /* Dark */
+  .dark {
+    .social_networks {
+      .fab {
+        @apply hover:text-accent;
+      }
+    }
+
+    .menu {
+      a {
+        @apply hover:bg-dt_hover_bg;
+
+        &.router-link-active {
+          @apply bg-dt_text text-lt_text;
+        }
+      }
+    }
+
+    .theme {
+      .fa-sun {
+        @apply text-dt_bg;
+      }
+    }
+  }
+
+
+  /* The switch - the box around the slider */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+  }
+
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* The slider */
+  .slider {
+    @apply absolute;
+    @apply cursor-pointer;
+    @apply top-0 left-0 right-0 bottom-0;
+    @apply rounded-full;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    bottom: 2px;
+    border-radius: 50%;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider {
+    @apply bg-accent;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(38px);
+  }
 </style>

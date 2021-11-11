@@ -1,14 +1,14 @@
 /* Typography */
 .h1--section {
-  @apply mb-4;
+  @apply mb-10;
   @apply text-4xl font-bold tracking-wide uppercase;
 }
 
 .h2--section {
-  @apply mb-3;
-  @apply text-xl font-bold tracking-wide uppercase;
+  @apply mb-4;
+  @apply text-2xl font-bold tracking-wide uppercase;
 }
 
 p {
-  @apply text-lg text-justify;
+  @apply text-lg text-justify leading-snug;
 }

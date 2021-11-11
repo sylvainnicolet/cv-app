@@ -26,7 +26,15 @@ module.exports = {
         lt_text: '#1A202C',
         lt_card_bg: '#fff',
         lt_hover_bg : '#EDF2F7',
-        lt_hover_text : '#4A5568',
+
+        // Dark Theme
+        dt_bg: '#2D3748',
+        dt_text: '#ffffff',
+        dt_card_bg: '#1A202C',
+        dt_hover_bg: '#2D3748',
+
+        // Accent
+        accent: '#ff8000',
       },
     },
   },
