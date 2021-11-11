@@ -4,7 +4,7 @@
     <div class="space-y-10">
       <div>
         <h2 class="h2--section">2014-2018 🇩🇪⚙️📚</h2>
-        <div class="space-y-4">
+        <div class="section--description">
           <p>
             C’est après une année linguistique à Spiez et deux ans de collège que j’effectue mes premiers
             pas dans le monde professionnel en entreprenant un apprentissage de
@@ -21,7 +21,7 @@
       </div>
       <div>
         <h2 class="h2--section">2018-2022 💻📚</h2>
-        <div class="space-y-4">
+        <div class="section--description">
           <p>
             Je décide d’orienter mon avenir professionnel vers un domaine que j’affectionne
             particulièrement, à savoir l’informatique.

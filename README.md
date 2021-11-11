@@ -93,6 +93,7 @@ yarn build
 - [ ] Contact
   - ???
 - [x] Theme Light/Dark
+- [ ] Footer
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

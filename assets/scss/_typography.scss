@@ -12,3 +12,7 @@
 p {
   @apply text-lg text-justify leading-snug;
 }
+
+.section--description {
+  @apply space-y-4;
+}
