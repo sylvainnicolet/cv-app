@@ -1,7 +1,7 @@
 <template>
   <nav id="navigation" class="card card--navigation">
     <div class="navigation__header">
-      <img alt="profile" src="../assets/img/profile.jpg" />
+      <img alt="profile" src="../public/img/profile.jpg" />
       <h1>Sylvain Nicolet</h1>
       <h2>Apprentis développeur</h2>
       <ul class="social_networks">
