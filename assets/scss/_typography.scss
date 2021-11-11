@@ -16,3 +16,7 @@ p {
 .section--description {
   @apply space-y-4;
 }
+
+a:hover {
+  @apply text-accent;
+}

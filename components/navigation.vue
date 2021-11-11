@@ -79,7 +79,6 @@ export default defineComponent({
 
     .fab {
       @apply text-xl;
-      @apply hover:text-accent;
     }
   }
 
@@ -91,7 +90,7 @@ export default defineComponent({
       @apply block;
       @apply py-3 px-10;
       @apply text-center lg:text-left text-lg uppercase tracking-wider;
-      @apply hover:bg-lt_hover_bg;
+      @apply hover:bg-lt_hover_bg hover:text-lt_text;
 
       &.router-link-active {
         @apply bg-lt_text text-dt_text;
@@ -124,7 +123,7 @@ export default defineComponent({
 
     .menu {
       a {
-        @apply hover:bg-dt_hover_bg;
+        @apply hover:bg-dt_hover_bg hover:text-dt_text;
 
         &.router-link-active {
           @apply bg-dt_text text-lt_text;
