@@ -66,10 +66,10 @@ export default defineComponent({
   /* Titles */
   h1 {
     @apply mb-5;
-    @apply text-5xl font-bold tracking-wide;
+    @apply text-4xl sm:text-5xl font-bold tracking-wide;
   }
   h2 {
-    @apply text-xl uppercase font-light tracking-widest;
+    @apply text-lg sm:text-xl uppercase font-light tracking-widest;
   }
 
   /* Social Networks */

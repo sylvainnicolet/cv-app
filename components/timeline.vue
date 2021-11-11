@@ -12,8 +12,12 @@ export default defineComponent({
         <li  class="timeline__item" v-for="item in items" :key="item.id">
           <h3 class="timeline__date">{{ item.date }}</h3>
           <div class="timeline__card">
+            <div v-if="item.location" class="timeline__location">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>{{ item.location }}</span>
+            </div>
             <h2 class="h2--section">{{ item.title }}</h2>
-            <ul class="space-y-2">
+            <ul class="space-y-3">
               <li v-for="description in item.descriptions" :key="description.id">
                 <p>{{ description }}</p>
               </li>

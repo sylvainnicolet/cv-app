@@ -40,6 +40,13 @@
   @apply mb-4 ml-8;
 }
 
+.timeline__location {
+  @apply space-x-2;
+  @apply mb-2;
+  @apply text-sm;
+  @apply text-gray-400;
+}
+
 /* Dark */
 .dark {
   .timeline:before {

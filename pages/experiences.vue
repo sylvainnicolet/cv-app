@@ -19,7 +19,8 @@ export default defineComponent({
           descriptions: [
               "Concevoir des applications Android en Java et Kotlin."
           ],
-          url: "https://www.liip.ch/fr/"
+          url: "https://www.liip.ch/fr/",
+          location: "Fribourg / Lausanne"
         },
         {
           date: 'Août 2014 - Août 2018',
@@ -29,7 +30,8 @@ export default defineComponent({
               "Collaborer au suivi de production (rétroaction des modifications techniques).",
               "Conception 3D."
           ],
-          url: "http://www.iscarmetaldur.ch/fr/"
+          url: "http://www.iscarmetaldur.ch/fr/",
+          location: "Villaz-Saint-Pierre"
         },
         {
           date: 'Juin 2014 - Juillet 2014',
@@ -37,7 +39,8 @@ export default defineComponent({
           descriptions: [
               "Nettoyage de containers et de citernes."
           ],
-          url: "https://www.mapei.com/ch/fr-ch/"
+          url: "https://www.mapei.com/ch/fr-ch/",
+          location: "Sorens"
         },
         {
           date: 'Juillet 2013 - Août 2013',
@@ -45,7 +48,8 @@ export default defineComponent({
           descriptions: [
               "Réapprovisionnement des rayons et caissier."
           ],
-          url: "https://www.jumbo.ch/fr/"
+          url: "https://www.jumbo.ch/fr/",
+          location: "Bulle"
         },
         {
           date: 'Juillet 2012',
@@ -53,7 +57,8 @@ export default defineComponent({
           descriptions: [
               "Débitage de pièces de production."
           ],
-          url: "https://www.progin.ch/v1/"
+          url: "https://www.progin.ch/v1/",
+          location: "Bulle"
         },
         {
           date: '2012 - 2018',
@@ -61,7 +66,8 @@ export default defineComponent({
           descriptions: [
               "Enseignement du tennis au TC Bulle."
           ],
-          url: "https://tcbulle.ch/"
+          url: "https://tcbulle.ch/",
+          location: "Bulle"
         }
       ]
     }
