@@ -82,10 +82,10 @@ yarn build
   - [x] Icon Light/Dark
 - [ ] Biography
   - [ ] Write Biography
-- [ ] Experiences
-  - [ ] Implement Timeline
-- [ ] Formations
-  - [ ] Implement Timeline
+- [x] Experiences
+  - [x] Implement Timeline
+- [x] Formations
+  - [x] Implement Timeline
 - [ ] Languages
   - ???
 - [ ] References
