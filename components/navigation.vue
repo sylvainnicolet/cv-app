@@ -15,7 +15,7 @@
       <li><NuxtLink to="/biography">Biographie</NuxtLink></li>
       <li><NuxtLink to="/experiences">Expériences</NuxtLink></li>
       <li><NuxtLink to="/formations">Formations</NuxtLink></li>
-      <li><NuxtLink to="/languages">Langages</NuxtLink></li>
+      <li><NuxtLink to="/languages">Langages & Technos</NuxtLink></li>
       <li><NuxtLink to="/references">Références</NuxtLink></li>
       <li><NuxtLink to="/contact">Contact</NuxtLink></li>
     </ul>

@@ -88,12 +88,11 @@ yarn build
   - [x] Implement Timeline
 - [ ] Languages
   - ???
-- [ ] References
-  - ???
-- [ ] Contact
-  - ???
+- [x] References
+- [x] Contact
 - [x] Theme Light/Dark
-- [ ] Footer
+- [x] Footer
+- [ ] Translate in English
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
