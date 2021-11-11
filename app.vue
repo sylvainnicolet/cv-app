@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import './assets/tailwind.scss'
-import './assets/custom.scss'
+import './assets/scss/tailwind.scss'
+import './assets/scss/custom.scss'
 </script>
 
 <template>

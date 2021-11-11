@@ -75,8 +75,8 @@ yarn build
   - [x] Languages
   - [x] References
   - [x] Contact
-- [ ] Navigation
-  - [ ] Image
+- [x] Navigation
+  - [x] Image
   - [x] Social Networks
   - [x] Menu
   - [x] Icon Light/Dark

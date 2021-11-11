@@ -1,6 +1,7 @@
 <template>
   <nav id="navigation" class="card card--navigation">
     <div class="navigation__header">
+      <img alt="profile" src="../assets/img/profile.jpg" />
       <h1>Sylvain Nicolet</h1>
       <h2>Apprentis développeur</h2>
       <ul class="social_networks">
@@ -54,6 +55,12 @@ export default defineComponent({
   .navigation__header {
     @apply flex flex-col items-center whitespace-nowrap;
     @apply p-10;
+
+    img {
+      @apply w-64 h-64;
+      @apply mb-5;
+      @apply rounded-full;
+    }
   }
 
   /* Titles */
@@ -130,53 +137,5 @@ export default defineComponent({
         @apply text-dt_bg;
       }
     }
-  }
-
-
-  /* The switch - the box around the slider */
-  .switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 20px;
-  }
-
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-
-  /* The slider */
-  .slider {
-    @apply absolute;
-    @apply cursor-pointer;
-    @apply top-0 left-0 right-0 bottom-0;
-    @apply rounded-full;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 16px;
-    width: 16px;
-    left: 3px;
-    bottom: 2px;
-    border-radius: 50%;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-
-  input:checked + .slider {
-    @apply bg-accent;
-  }
-
-  input:checked + .slider:before {
-    transform: translateX(38px);
   }
 </style>
