@@ -1,0 +1,32 @@
+/* Timeline */
+#footer {
+  @apply flex justify-center items-center;
+  @apply space-x-3;
+  @apply pt-24;
+
+  svg {
+    @apply fill-current;
+    @apply text-lt_text;
+    @apply hover:text-accent;
+  }
+
+  p {
+    @apply text-base tracking-wide;
+  }
+}
+
+/* Dark */
+.dark {
+
+  #footer {
+
+    svg {
+      @apply text-dt_text;
+      @apply hover:text-accent;
+    }
+
+    p {
+      @apply text-dt_text;
+    }
+  }
+}

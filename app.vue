@@ -6,9 +6,10 @@ import './assets/scss/custom.scss'
 <template>
   <div id="app" :class="theme">
     <div class="layout">
-      <Navigation @toggle="toggle" />
-      <NuxtPage />
+      <navigation @toggle="toggle" />
+      <nuxt-page />
     </div>
+    <custom-footer />
   </div>
 </template>
 
