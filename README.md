@@ -24,7 +24,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The goals of this project are to present my *curriculum vitae* and learn how to build a simple website with modern languages/tools like Vuejs, Nuxtjs or TailwindCSS.
+![Product Name Screen Shot][product-screenshot]
+
+The goals of this project are to present my *curriculum vitae* and learn how to build a simple website with modern languages/tools like TypeScript, Vuejs, Nuxtjs or TailwindCSS.
+
+<a href="https://cv-app-sylvainnicolet.vercel.app/" target="_blank">Live Demo</a>
 
 ### Built With
 
@@ -87,7 +91,8 @@ yarn build
 - [x] Formations
   - [x] Implement Timeline
 - [ ] Languages
-  - ???
+  - [x] Display Circle Bar
+  - [ ] Animate Circle Bar
 - [x] References
 - [x] Contact
 - [x] Theme Light/Dark
@@ -104,3 +109,6 @@ Sylvain Nicolet - [@sylvainnicolet](https://www.linkedin.com/in/sylvainnicolet/)
 Project Link: [https://github.com/sylvainnicolet/cv-app](https://github.com/sylvainnicolet/cv-app)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: assets/presentation.jpg
