@@ -12,5 +12,8 @@ export default defineNuxtConfig({
                 }
             }
         },
-    }
+    },
+    serverMiddleware: [
+        '~/middleware/redirects.js'
+    ],
 })
